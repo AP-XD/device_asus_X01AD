@@ -90,6 +90,15 @@ ro.control_privapp_permissions=enforce
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
+# Fling
+ro.min.fling_velocity=160 
+ro.max.fling_velocity=20000
+ro.max.fling_velocity=20000 
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # GMS
 ro.com.google.rlzbrandcode=ASUP
 ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
